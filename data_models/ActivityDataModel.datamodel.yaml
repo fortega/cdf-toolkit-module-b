@@ -1,0 +1,14 @@
+externalId: ActivityDataModel
+name: My activity data model
+version: '1'
+space: sp_activity_model
+description: 'A data model for structuring and querying activity data.'
+views:
+  - type: view
+    externalId: MyActivity
+    space: sp_activity_model
+    version: '3'
+  - type: view
+    externalId: MyTask
+    space: sp_activity_model
+    version: '2'
